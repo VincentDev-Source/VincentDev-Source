@@ -23,7 +23,7 @@
       "name": "Terminal-info Widget",
       "position": {
         "x": 296,
-        "y": 106
+        "y": 122
       },
       "size": {
         "width": 504,
@@ -32,7 +32,7 @@
       "config": {
         "animationType": "slide-up",
         "animationPreviewKey": 1,
-        "customLanguages": "Bash,Python,Linux,GO,Java,HTML,",
+        "customLanguages": "Bash,Python,Linux,GO,Java,HTML",
         "customCompany": "Telkom-University",
         "customStatus": "Talk is cheap,show Me the Code",
         "showMainSection": true,
@@ -44,11 +44,11 @@
         "showTimezone": false,
         "showPronouns": true,
         "showAchievements": false,
-        "showHighlights": true,
+        "showHighlights": false,
         "showUptime": true,
         "showLocation": true,
         "showLanguages": true,
-        "showCompany": true,
+        "showCompany": false,
         "customContactTitle": ""
       },
       "locked": false,
@@ -75,23 +75,6 @@
       "visible": true,
       "zIndex": 4,
       "instanceId": "widget_1790325793348_3"
-    },
-    {
-      "widgetId": "footer",
-      "name": "Footer Widget",
-      "position": {
-        "x": 0,
-        "y": 914
-      },
-      "size": {
-        "width": 800,
-        "height": 50
-      },
-      "config": {},
-      "locked": false,
-      "visible": true,
-      "zIndex": 6,
-      "instanceId": "widget_1790325793348_4"
     },
     {
       "widgetId": "tech-stack",
@@ -11629,24 +11612,49 @@
       "zIndex": 7
     },
     {
-      "instanceId": "widget_1790326828265",
-      "widgetId": "controlplane-signal-grid",
-      "name": "Controlplane-signal-grid Widget",
+      "instanceId": "widget_1790332209517",
+      "widgetId": "readme-quotes",
+      "name": "Readme-quotes Widget",
       "position": {
         "x": 0,
-        "y": 578
+        "y": 586
       },
       "size": {
-        "width": 800,
-        "height": 320
+        "width": 784,
+        "height": 210
       },
       "config": {
-        "layoutType": "hero",
-        "accentColor": "#00A7D1"
+        "quoteType": "quote-day",
+        "theme": "dracula",
+        "layout": "horizontal",
+        "customTitle": "",
+        "showTitle": false
       },
       "locked": false,
       "visible": true,
-      "zIndex": 8
+      "zIndex": 6
+    },
+    {
+      "instanceId": "widget_1790332389255",
+      "widgetId": "surveillance-telemetry",
+      "name": "Surveillance-telemetry Widget",
+      "position": {
+        "x": 0,
+        "y": 812
+      },
+      "size": {
+        "width": 780,
+        "height": 420
+      },
+      "config": {
+        "accentColor": "#00ff88",
+        "customTitle": "Terminal Telemetry",
+        "secondaryColor": "#55ffff",
+        "ledColor": "#00ff88"
+      },
+      "locked": false,
+      "visible": true,
+      "zIndex": 7
     }
   ],
   "globalStyles": {
@@ -11663,7 +11671,7 @@
   "templateId": "terminal",
   "profileSlug": "default",
   "metadata": {
-    "revision": "rev_1790326958482_4lz4d",
-    "updatedAt": "2026-09-25T09:02:40.493Z"
+    "revision": "rev_1790332447210_4qwep",
+    "updatedAt": "2026-09-25T10:34:09.238Z"
   }
 }
