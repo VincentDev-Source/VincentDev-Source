@@ -19,23 +19,129 @@
       "instanceId": "widget_1790325793348_0"
     },
     {
-      "widgetId": "ascii-art",
-      "name": "Ascii-art Widget",
+      "widgetId": "terminal-info",
+      "name": "Terminal-info Widget",
+      "position": {
+        "x": 296,
+        "y": 106
+      },
+      "size": {
+        "width": 504,
+        "height": 280
+      },
+      "config": {
+        "animationType": "slide-up",
+        "animationPreviewKey": 1,
+        "customLanguages": "Bash,Python,Linux,GO,Java,HTML,",
+        "customCompany": "Telkom-University",
+        "customStatus": "Talk is cheap,show Me the Code",
+        "showMainSection": true,
+        "showContactSection": true,
+        "showStatsSection": true,
+        "showFollowing": false,
+        "showJoined": true,
+        "showStatus": true,
+        "showTimezone": false,
+        "showPronouns": true,
+        "showAchievements": false,
+        "showHighlights": true,
+        "showUptime": true,
+        "showLocation": true,
+        "showLanguages": true,
+        "showCompany": true,
+        "customContactTitle": ""
+      },
+      "locked": false,
+      "visible": true,
+      "zIndex": 3,
+      "instanceId": "widget_1790325793348_2"
+    },
+    {
+      "widgetId": "languages",
+      "name": "Languages Widget",
+      "position": {
+        "x": 0,
+        "y": 402
+      },
+      "size": {
+        "width": 536,
+        "height": 160
+      },
+      "config": {
+        "animationType": "none",
+        "animationPreviewKey": 1
+      },
+      "locked": false,
+      "visible": true,
+      "zIndex": 4,
+      "instanceId": "widget_1790325793348_3"
+    },
+    {
+      "widgetId": "footer",
+      "name": "Footer Widget",
+      "position": {
+        "x": 0,
+        "y": 914
+      },
+      "size": {
+        "width": 800,
+        "height": 50
+      },
+      "config": {},
+      "locked": false,
+      "visible": true,
+      "zIndex": 6,
+      "instanceId": "widget_1790325793348_4"
+    },
+    {
+      "widgetId": "tech-stack",
+      "name": "Tech-stack Widget",
+      "position": {
+        "x": 544,
+        "y": 402
+      },
+      "size": {
+        "width": 240,
+        "height": 160
+      },
+      "config": {
+        "selectedTechs": [
+          "linux",
+          "docker",
+          "git",
+          "github",
+          "bash",
+          "python",
+          "js",
+          "go",
+          "cpp",
+          "py",
+          "java"
+        ],
+        "theme": "dark",
+        "perLine": 4,
+        "animationType": "none",
+        "animationPreviewKey": 3
+      },
+      "locked": false,
+      "visible": true,
+      "zIndex": 6,
+      "instanceId": "widget_1790325793348_5"
+    },
+    {
+      "instanceId": "widget_1790326750422",
+      "widgetId": "asciiprofile-portrait",
+      "name": "Asciiprofile-portrait Widget",
       "position": {
         "x": 0,
         "y": 106
       },
       "size": {
-        "width": 280,
-        "height": 280
+        "width": 288,
+        "height": 290
       },
       "config": {
-        "detail": "medium",
-        "cols": 150,
-        "charset": "dense",
-        "edgeEnhance": true,
-        "lockAspectRatio": true,
-        "rows": 75,
+        "accentColor": "#ffa657",
         "asciiText": [
           "&@&&&&&@&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&",
           "&||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||&",
@@ -11514,101 +11620,33 @@
             "#f0f0f0",
             "#f0f0f0"
           ]
-        ]
+        ],
+        "cols": 150,
+        "rows": 75
       },
       "locked": false,
       "visible": true,
-      "zIndex": 2,
-      "instanceId": "widget_1790325793348_1"
+      "zIndex": 7
     },
     {
-      "widgetId": "terminal-info",
-      "name": "Terminal-info Widget",
-      "position": {
-        "x": 296,
-        "y": 106
-      },
-      "size": {
-        "width": 504,
-        "height": 280
-      },
-      "config": {},
-      "locked": false,
-      "visible": true,
-      "zIndex": 3,
-      "instanceId": "widget_1790325793348_2"
-    },
-    {
-      "widgetId": "languages",
-      "name": "Languages Widget",
-      "position": {
-        "x": 0,
-        "y": 402
-      },
-      "size": {
-        "width": 536,
-        "height": 160
-      },
-      "config": {
-        "animationType": "none",
-        "animationPreviewKey": 1
-      },
-      "locked": false,
-      "visible": true,
-      "zIndex": 4,
-      "instanceId": "widget_1790325793348_3"
-    },
-    {
-      "widgetId": "footer",
-      "name": "Footer Widget",
+      "instanceId": "widget_1790326828265",
+      "widgetId": "controlplane-signal-grid",
+      "name": "Controlplane-signal-grid Widget",
       "position": {
         "x": 0,
         "y": 578
       },
       "size": {
         "width": 800,
-        "height": 50
-      },
-      "config": {},
-      "locked": false,
-      "visible": true,
-      "zIndex": 6,
-      "instanceId": "widget_1790325793348_4"
-    },
-    {
-      "widgetId": "tech-stack",
-      "name": "Tech-stack Widget",
-      "position": {
-        "x": 544,
-        "y": 402
-      },
-      "size": {
-        "width": 240,
-        "height": 160
+        "height": 320
       },
       "config": {
-        "selectedTechs": [
-          "linux",
-          "docker",
-          "git",
-          "github",
-          "bash",
-          "python",
-          "js",
-          "go",
-          "cpp",
-          "py",
-          "java"
-        ],
-        "theme": "dark",
-        "perLine": 4,
-        "animationType": "none",
-        "animationPreviewKey": 3
+        "layoutType": "hero",
+        "accentColor": "#00A7D1"
       },
       "locked": false,
       "visible": true,
-      "zIndex": 6,
-      "instanceId": "widget_1790325793348_5"
+      "zIndex": 8
     }
   ],
   "globalStyles": {
@@ -11625,7 +11663,7 @@
   "templateId": "terminal",
   "profileSlug": "default",
   "metadata": {
-    "revision": "rev_1790326316092_9sj45",
-    "updatedAt": "2026-09-25T08:51:58.309Z"
+    "revision": "rev_1790326958482_4lz4d",
+    "updatedAt": "2026-09-25T09:02:40.493Z"
   }
 }
